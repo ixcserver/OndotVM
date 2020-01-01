@@ -4,14 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFEB3B"
     android:orientation="vertical"
-    android:background="#E46E6E"
     tools:context=".VolumeCalculator">
 
     <EditText
+        android:id="@+id/etl"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/etl"
-        android:hint="Lenght"/>
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:hint="Lenght"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:hint="Weight"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#FFFFFF"
+        android:hint="Hight"
+        android:padding="10dp" />
 
 </LinearLayout>
